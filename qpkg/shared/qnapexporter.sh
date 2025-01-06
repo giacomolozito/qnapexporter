@@ -1,7 +1,7 @@
 #!/bin/sh
 
 CONF=/etc/config/qpkg.conf
-QPKG_NAME=QNAPExporter2
+QPKG_NAME=QNAPExporter
 QPKG_DIR=$(getcfg $QPKG_NAME Install_Path -f $CONF)
 PID_FILE=/var/run/qnapexporter.pid
 
